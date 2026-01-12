@@ -1,0 +1,910 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/Montserrat-SemiBold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Montserrat-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Montserrat-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Furore.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Home Page</title>
+		<script type="module" crossorigin="" src="./js/app.min.js?v=1768261413966"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1768261413966">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="" class="header">
+				<div class="header__container">
+					<div class="header__logo">
+						<img src="./assets/img/logo.svg" alt="detailing">
+					</div>
+					<div class="header__anchors">
+						<nav>
+							<ul>
+								<li>
+									<a href="#services">Послуги</a>
+								</li>
+								<li>
+									<a href="#price">Ціни</a>
+								</li>
+								<li>
+									<a href="#contacts">Контакти</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__actions">
+						<div class="header__phones phones">
+							<button class="phones__trigger --icon-phone" type="button" aria-label="відкриття списку телефонів"></button>
+							<div class="phones__dropdown">
+								<ul>
+									<li>
+										<a href="tel:+0939260995">+0939260995</a>
+									</li>
+									<li>
+										<a href="tel:+0939260995">+0939260995</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<button type="button" data-fls-menu="" class="header__icon icon-menu">
+							<span></span>
+						</button>
+					</div>
+					<div class="header__menu menu">
+						<div class="menu__top">
+							<div class="header__logo">
+								<img src="./assets/img/logo.svg" alt="detailing">
+							</div>
+							<button class="menu__close --icon-close" data-fls-menu="" type="button" aria-label="закрити меню"></button>
+						</div>
+						<nav class="menu__nav">
+							<ul>
+								<li>
+									<a href="#services">Послуги</a>
+								</li>
+								<li>
+									<a href="#instagram">Наш інстаграм</a>
+								</li>
+								<li>
+									<a href="#reviews">Відгуки</a>
+								</li>
+								<li>
+									<a href="#price">Ціни</a>
+								</li>
+								<li>
+									<a href="#contacts">Контакти</a>
+								</li>
+							</ul>
+						</nav>
+						<div class="menu__social social">
+							<h3 class="social__title">Соціальні мережі для зв'язку з вами!</h3>
+							<ul class="social__list">
+								<li class="social__item">
+									<a class="social__link social-link" href="#" aria-label="whatsapp" target="_blank">
+										<div class="social-link__icon">
+											<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M12.003 0H11.997C5.3805 0 0 5.382 0 12C0 14.625 0.846 17.058 2.2845 19.0335L0.789 23.4915L5.4015 22.017C7.299 23.274 9.5625 24 12.003 24C18.6195 24 24 18.6165 24 12C24 5.3835 18.6195 0 12.003 0ZM18.9855 16.9455C18.696 17.763 17.547 18.441 16.6305 18.639C16.0035 18.7725 15.1845 18.879 12.4275 17.736C8.901 16.275 6.63 12.6915 6.453 12.459C6.2835 12.2265 5.028 10.5615 5.028 8.8395C5.028 7.1175 5.9025 6.279 6.255 5.919C6.5445 5.6235 7.023 5.4885 7.482 5.4885C7.6305 5.4885 7.764 5.496 7.884 5.502C8.2365 5.517 8.4135 5.538 8.646 6.0945C8.9355 6.792 9.6405 8.514 9.7245 8.691C9.81 8.868 9.8955 9.108 9.7755 9.3405C9.663 9.5805 9.564 9.687 9.387 9.891C9.21 10.095 9.042 10.251 8.865 10.47C8.703 10.6605 8.52 10.8645 8.724 11.217C8.928 11.562 9.633 12.7125 10.671 13.6365C12.0105 14.829 13.0965 15.21 13.485 15.372C13.7745 15.492 14.1195 15.4635 14.331 15.2385C14.5995 14.949 14.931 14.469 15.2685 13.9965C15.5085 13.6575 15.8115 13.6155 16.1295 13.7355C16.4535 13.848 18.168 14.6955 18.5205 14.871C18.873 15.048 19.1055 15.132 19.191 15.2805C19.275 15.429 19.275 16.1265 18.9855 16.9455Z" fill="white"></path>
+											</svg>
+										</div>
+										<span class="social-link__title">Whatsap</span>
+									</a>
+								</li>
+								<li class="social__item">
+									<a class="social__link social-link" href="#" aria-label="telegram" target="_blank">
+										<div class="social-link__icon">
+											<svg width="21" height="18" viewbox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M0.462691 8.64472L5.29269 10.285L16.7609 3.27397C16.9274 3.17272 17.0977 3.39847 16.9544 3.53047L8.27244 11.5217L7.94994 15.9955C7.94467 16.0704 7.96231 16.1452 8.00052 16.2099C8.03872 16.2746 8.09569 16.3261 8.16386 16.3577C8.23203 16.3892 8.30819 16.3993 8.38223 16.3866C8.45628 16.3739 8.5247 16.339 8.57844 16.2865L11.2514 13.6577L16.1384 17.3567C16.6649 17.7557 17.4277 17.4745 17.5694 16.8295L20.9722 1.37947C21.1664 0.49822 20.3024 -0.24578 19.4602 0.0767195L0.43869 7.36072C-0.15831 7.58947 -0.14181 8.43922 0.462691 8.64472Z" fill="white"></path>
+											</svg>
+										</div>
+										<span class="social-link__title">Telegram</span>
+									</a>
+								</li>
+								<li class="social__item">
+									<a class="social__link social-link" href="#" aria-label="instagram" target="_blank">
+										<div class="social-link__icon">
+											<svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M11.0286 0C12.1536 0.003 12.7246 0.009 13.2176 0.023L13.4116 0.03C13.6356 0.038 13.8566 0.0479999 14.1236 0.0599999C15.1876 0.11 15.9136 0.278 16.5506 0.525C17.2106 0.779 17.7666 1.123 18.3226 1.678C18.8313 2.17773 19.2248 2.78247 19.4756 3.45C19.7226 4.087 19.8906 4.813 19.9406 5.878C19.9526 6.144 19.9626 6.365 19.9706 6.59L19.9766 6.784C19.9916 7.276 19.9976 7.847 19.9996 8.972L20.0006 9.718V11.028C20.003 11.7574 19.9953 12.4868 19.9776 13.216L19.9716 13.41C19.9636 13.635 19.9536 13.856 19.9416 14.122C19.8916 15.187 19.7216 15.912 19.4756 16.55C19.2248 17.2175 18.8313 17.8223 18.3226 18.322C17.8228 18.8307 17.2181 19.2242 16.5506 19.475C15.9136 19.722 15.1876 19.89 14.1236 19.94L13.4116 19.97L13.2176 19.976C12.7246 19.99 12.1536 19.997 11.0286 19.999L10.2826 20H8.97357C8.24383 20.0026 7.51409 19.9949 6.78457 19.977L6.59057 19.971C6.35318 19.962 6.11584 19.9517 5.87857 19.94C4.81457 19.89 4.08857 19.722 3.45057 19.475C2.7834 19.2241 2.17901 18.8306 1.67957 18.322C1.17051 17.8224 0.776678 17.2176 0.525569 16.55C0.278569 15.913 0.110569 15.187 0.0605687 14.122L0.0305688 13.41L0.0255689 13.216C0.00713493 12.4868 -0.00119929 11.7574 0.000568797 11.028V8.972C-0.0021991 8.2426 0.00513501 7.5132 0.0225689 6.784L0.0295688 6.59C0.0375688 6.365 0.0475688 6.144 0.0595688 5.878C0.109569 4.813 0.277569 4.088 0.524569 3.45C0.776263 2.7822 1.17079 2.17744 1.68057 1.678C2.17972 1.16955 2.78376 0.776074 3.45057 0.525C4.08857 0.278 4.81357 0.11 5.87857 0.0599999C6.14457 0.0479999 6.36657 0.038 6.59057 0.03L6.78457 0.0239999C7.51376 0.00623271 8.24316 -0.0014347 8.97257 0.000999928L11.0286 0ZM10.0006 5C8.67449 5 7.40272 5.52678 6.46503 6.46447C5.52735 7.40215 5.00057 8.67392 5.00057 10C5.00057 11.3261 5.52735 12.5979 6.46503 13.5355C7.40272 14.4732 8.67449 15 10.0006 15C11.3267 15 12.5984 14.4732 13.5361 13.5355C14.4738 12.5979 15.0006 11.3261 15.0006 10C15.0006 8.67392 14.4738 7.40215 13.5361 6.46447C12.5984 5.52678 11.3267 5 10.0006 5ZM10.0006 7C10.3945 6.99993 10.7847 7.07747 11.1487 7.22817C11.5127 7.37887 11.8434 7.5998 12.122 7.87833C12.4007 8.15686 12.6217 8.48754 12.7725 8.85149C12.9233 9.21544 13.001 9.60553 13.0011 9.9995C13.0011 10.3935 12.9236 10.7836 12.7729 11.1476C12.6222 11.5116 12.4013 11.8423 12.1227 12.121C11.8442 12.3996 11.5135 12.6206 11.1496 12.7714C10.7856 12.9223 10.3955 12.9999 10.0016 13C9.20592 13 8.44286 12.6839 7.88025 12.1213C7.31764 11.5587 7.00157 10.7956 7.00157 10C7.00157 9.20435 7.31764 8.44129 7.88025 7.87868C8.44286 7.31607 9.20592 7 10.0016 7M15.2516 3.5C14.92 3.5 14.6021 3.6317 14.3677 3.86612C14.1333 4.10054 14.0016 4.41848 14.0016 4.75C14.0016 5.08152 14.1333 5.39946 14.3677 5.63388C14.6021 5.8683 14.92 6 15.2516 6C15.5831 6 15.901 5.8683 16.1355 5.63388C16.3699 5.39946 16.5016 5.08152 16.5016 4.75C16.5016 4.41848 16.3699 4.10054 16.1355 3.86612C15.901 3.6317 15.5831 3.5 15.2516 3.5Z" fill="white"></path>
+											</svg>
+										</div>
+										<span class="social-link__title">Instagram</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main class="page page--home">
+				<!-- section hero -->
+				<section class="hero">
+					<div class="hero__bg">
+						<video class="hero__video" poster="assets/img/poster.jpg" autoplay muted loop playsinline="">
+							<source src="./assets/img/video.webm" type="video/webm">
+							<source src="./assets/img/video.mp4" type="video/mp4">
+						</video>
+						<div class="hero__overlay"></div>
+					</div>
+					<div class="hero__container">
+						<h1 class="hero__title">Професійний детейлінг
+				авто прeміум-класу</h1>
+						<ul class="hero__list">
+							<li class="hero__item">
+								<div class="hero__arrows">
+									<svg class="arrow-icon" viewbox="0 0 19 27" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M1.41071e-05 26.3486L8.97245 26.3486L18.6166 13.1743L8.97245 -4.21558e-07L1.52588e-05 -8.13756e-07L9.64414 13.1743L1.41071e-05 26.3486Z"></path>
+									</svg>
+									<svg class="arrow-icon" viewbox="0 0 19 27" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M1.41071e-05 26.3486L8.97245 26.3486L18.6166 13.1743L8.97245 -4.21558e-07L1.52588e-05 -8.13756e-07L9.64414 13.1743L1.41071e-05 26.3486Z"></path>
+									</svg>
+								</div>
+								Повертаємо
+					ідеальний вигляд
+							</li>
+							<li class="hero__item">
+								<div class="hero__arrows">
+									<svg class="arrow-icon" viewbox="0 0 19 27" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M1.41071e-05 26.3486L8.97245 26.3486L18.6166 13.1743L8.97245 -4.21558e-07L1.52588e-05 -8.13756e-07L9.64414 13.1743L1.41071e-05 26.3486Z"></path>
+									</svg>
+									<svg class="arrow-icon" viewbox="0 0 19 27" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M1.41071e-05 26.3486L8.97245 26.3486L18.6166 13.1743L8.97245 -4.21558e-07L1.52588e-05 -8.13756e-07L9.64414 13.1743L1.41071e-05 26.3486Z"></path>
+									</svg>
+								</div>
+								захищаємо
+					ваш автомобіль
+							</li>
+						</ul>
+						<div class="hero__actions">
+							<a href="#services" class="hero__btn button">Переглянути кейси</a>
+							<button class="hero__btn button button--border" type="button" data-fls-popup-link="contact-us">Онлайн
+					запис</button>
+						</div>
+					</div>
+				</section>
+				<!-- block marquee -->
+				<div class="marquee" data-fls-marquee="">
+					<div class="marquee__item">
+						<div class="marquee__arrows">
+							<svg class="arrow-icon" viewbox="0 0 19 27" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M1.41071e-05 26.3486L8.97245 26.3486L18.6166 13.1743L8.97245 -4.21558e-07L1.52588e-05 -8.13756e-07L9.64414 13.1743L1.41071e-05 26.3486Z"></path>
+							</svg>
+							<svg class="arrow-icon" viewbox="0 0 19 27" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M1.41071e-05 26.3486L8.97245 26.3486L18.6166 13.1743L8.97245 -4.21558e-07L1.52588e-05 -8.13756e-07L9.64414 13.1743L1.41071e-05 26.3486Z"></path>
+							</svg>
+							<svg class="arrow-icon" viewbox="0 0 19 27" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M1.41071e-05 26.3486L8.97245 26.3486L18.6166 13.1743L8.97245 -4.21558e-07L1.52588e-05 -8.13756e-07L9.64414 13.1743L1.41071e-05 26.3486Z"></path>
+							</svg>
+							<svg class="arrow-icon" viewbox="0 0 19 27" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M1.41071e-05 26.3486L8.97245 26.3486L18.6166 13.1743L8.97245 -4.21558e-07L1.52588e-05 -8.13756e-07L9.64414 13.1743L1.41071e-05 26.3486Z"></path>
+							</svg>
+						</div>
+						<div class="marquee__number">7</div>
+						<div class="marquee__text">
+							років
+							<br>
+							гарантія
+						</div>
+					</div>
+					<div class="marquee__item">
+						<div class="marquee__arrows">
+							<svg class="arrow-icon" viewbox="0 0 19 27" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M1.41071e-05 26.3486L8.97245 26.3486L18.6166 13.1743L8.97245 -4.21558e-07L1.52588e-05 -8.13756e-07L9.64414 13.1743L1.41071e-05 26.3486Z"></path>
+							</svg>
+							<svg class="arrow-icon" viewbox="0 0 19 27" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M1.41071e-05 26.3486L8.97245 26.3486L18.6166 13.1743L8.97245 -4.21558e-07L1.52588e-05 -8.13756e-07L9.64414 13.1743L1.41071e-05 26.3486Z"></path>
+							</svg>
+							<svg class="arrow-icon" viewbox="0 0 19 27" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M1.41071e-05 26.3486L8.97245 26.3486L18.6166 13.1743L8.97245 -4.21558e-07L1.52588e-05 -8.13756e-07L9.64414 13.1743L1.41071e-05 26.3486Z"></path>
+							</svg>
+							<svg class="arrow-icon" viewbox="0 0 19 27" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M1.41071e-05 26.3486L8.97245 26.3486L18.6166 13.1743L8.97245 -4.21558e-07L1.52588e-05 -8.13756e-07L9.64414 13.1743L1.41071e-05 26.3486Z"></path>
+							</svg>
+						</div>
+						<div class="marquee__number">6</div>
+						<div class="marquee__text">
+							років
+							<br>
+							досвіду
+						</div>
+					</div>
+				</div>
+				<!-- section services -->
+				<section class="section services" id="services">
+					<div class="services__container">
+						<h2 class="services__title title">Послуги</h2>
+						<div class="services__wrap">
+							<div data-fls-slider="" class="services__slider swiper">
+								<div class="services__wrapper swiper-wrapper">
+									<div class="services__slide swiper-slide">
+										<div class="item-service">
+											<div class="item-service__img">
+												<img src="./assets/img/service01.jpg" alt="Оклеювання антигравійною та кольоровою плівкою">
+											</div>
+											<div class="item-service__content">
+												<h3 class="item-service__title">Оклеювання антигравійною та кольоровою плівкою</h3>
+												<div class="item-service__text">
+													<p>Поглинання ударів, захист лаку, збереження глибини кольору</p>
+												</div>
+											</div>
+											<div class="item-service__bottom">
+												<button class="item-service__btn button" type="button" data-fls-popup-link="contact-us">Онлайн запис</button>
+											</div>
+										</div>
+									</div>
+									<div class="services__slide swiper-slide">
+										<div class="item-service">
+											<div class="item-service__img">
+												<img src="./assets/img/service02.jpg" alt="Полірування, захисні покриття">
+											</div>
+											<div class="item-service__content">
+												<h3 class="item-service__title">Полірування, захисні покриття</h3>
+												<div class="item-service__text">
+													<p>Поглинання ударів, захист лаку, збереження глибини кольору</p>
+												</div>
+											</div>
+											<div class="item-service__bottom">
+												<button class="item-service__btn button" type="button" data-fls-popup-link="contact-us">Онлайн запис</button>
+											</div>
+										</div>
+									</div>
+									<div class="services__slide swiper-slide">
+										<div class="item-service">
+											<div class="item-service__img">
+												<img src="./assets/img/service03.jpg" alt="Тонування">
+											</div>
+											<div class="item-service__content">
+												<h3 class="item-service__title">Тонування</h3>
+												<div class="item-service__text">
+													<p>Від бюджетних плівок до прeміальних</p>
+												</div>
+											</div>
+											<div class="item-service__bottom">
+												<button class="item-service__btn button" type="button" data-fls-popup-link="contact-us">Онлайн запис</button>
+											</div>
+										</div>
+									</div>
+									<div class="services__slide swiper-slide">
+										<div class="item-service">
+											<div class="item-service__img">
+												<img src="./assets/img/service03.jpg" alt="Тонування">
+											</div>
+											<div class="item-service__content">
+												<h3 class="item-service__title">Тонування</h3>
+												<div class="item-service__text">
+													<p>Від бюджетних плівок до прeміальних</p>
+												</div>
+											</div>
+											<div class="item-service__bottom">
+												<button class="item-service__btn button" type="button" data-fls-popup-link="contact-us">Онлайн запис</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-nav">
+									<button class="swiper-button-prev --icon-arrow-prev" aria-label="btn prev navigation slider"></button>
+									<div class="swiper-pagination"></div>
+									<button class="swiper-button-next --icon-arrow-next" aria-label="btn next navigation slider"></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- section instagram -->
+				<section class="section instagram" id="instagram">
+					<div class="instagram__container">
+						<h2 class="instagram__title title">Наш інстаграм</h2>
+						<ul class="instagram__list">
+							<li class="instagram__item">
+								<a href="#" class="instagram__link">
+									<span class="instagram__img">
+										<img src="./assets/img/instagram/01.jpg" alt="Image">
+									</span>
+									<div class="instagram__text">
+										<p>
+											raywan.detailing: Зробили перевтілення за допомогою кольорової антигравійноі
+								плівки @brawix_color на #bmw #g30Виконали
+								великий перелік робіт, а саме:✅повне оклеювання кузову плівкою Brawix Color PPF Matte
+								Hosta Gold✅часткове оклеювання
+								прозорою антигравійною плівкою
+										</p>
+									</div>
+								</a>
+							</li>
+							<li class="instagram__item">
+								<a href="#" class="instagram__link">
+									<span class="instagram__img">
+										<img src="./assets/img/instagram/02.jpg" alt="Image">
+									</span>
+									<div class="instagram__text">
+										<p>
+											raywan.detailing: Зробили перевтілення за допомогою кольорової антигравійноі
+								плівки @brawix_color на #bmw #g30Виконали
+								великий перелік робіт, а саме:✅повне оклеювання кузову плівкою Brawix Color PPF Matte
+								Hosta Gold✅часткове оклеювання
+								прозорою антигравійною плівкою
+										</p>
+									</div>
+								</a>
+							</li>
+							<li class="instagram__item">
+								<a href="#" class="instagram__link">
+									<span class="instagram__img">
+										<img src="./assets/img/instagram/03.jpg" alt="Image">
+									</span>
+									<div class="instagram__text">
+										<p>
+											raywan.detailing: Зробили перевтілення за допомогою кольорової антигравійноі
+								плівки @brawix_color на #bmw #g30Виконали
+								великий перелік робіт, а саме:✅повне оклеювання кузову плівкою Brawix Color PPF Matte
+								Hosta Gold✅часткове оклеювання
+								прозорою антигравійною плівкою
+										</p>
+									</div>
+								</a>
+							</li>
+							<li class="instagram__item">
+								<a href="#" class="instagram__link">
+									<span class="instagram__img">
+										<img src="./assets/img/instagram/04.jpg" alt="Image">
+									</span>
+									<div class="instagram__text">
+										<p>
+											raywan.detailing: Зробили перевтілення за допомогою кольорової антигравійноі
+								плівки @brawix_color на #bmw #g30Виконали
+								великий перелік робіт, а саме:✅повне оклеювання кузову плівкою Brawix Color PPF Matte
+								Hosta Gold✅часткове оклеювання
+								прозорою антигравійною плівкою
+										</p>
+									</div>
+								</a>
+							</li>
+							<li class="instagram__item">
+								<a href="#" class="instagram__link">
+									<span class="instagram__img">
+										<img src="./assets/img/instagram/05.jpg" alt="Image">
+									</span>
+									<div class="instagram__text">
+										<p>
+											raywan.detailing: Зробили перевтілення за допомогою кольорової антигравійноі
+								плівки @brawix_color на #bmw #g30Виконали
+								великий перелік робіт, а саме:✅повне оклеювання кузову плівкою Brawix Color PPF Matte
+								Hosta Gold✅часткове оклеювання
+								прозорою антигравійною плівкою
+										</p>
+									</div>
+								</a>
+							</li>
+							<li class="instagram__item">
+								<a href="#" class="instagram__link">
+									<span class="instagram__img">
+										<img src="./assets/img/instagram/06.jpg" alt="Image">
+									</span>
+									<div class="instagram__text">
+										<p>
+											raywan.detailing: Зробили перевтілення за допомогою кольорової антигравійноі
+								плівки @brawix_color на #bmw #g30Виконали
+								великий перелік робіт, а саме:✅повне оклеювання кузову плівкою Brawix Color PPF Matte
+								Hosta Gold✅часткове оклеювання
+								прозорою антигравійною плівкою
+										</p>
+									</div>
+								</a>
+							</li>
+							<li class="instagram__item">
+								<a href="#" class="instagram__link">
+									<span class="instagram__img">
+										<img src="./assets/img/instagram/07.jpg" alt="Image">
+									</span>
+									<div class="instagram__text">
+										<p>
+											raywan.detailing: Зробили перевтілення за допомогою кольорової антигравійноі
+								плівки @brawix_color на #bmw #g30Виконали
+								великий перелік робіт, а саме:✅повне оклеювання кузову плівкою Brawix Color PPF Matte
+								Hosta Gold✅часткове оклеювання
+								прозорою антигравійною плівкою
+										</p>
+									</div>
+								</a>
+							</li>
+							<li class="instagram__item">
+								<a href="#" class="instagram__link">
+									<span class="instagram__img">
+										<img src="./assets/img/instagram/08.jpg" alt="Image">
+									</span>
+									<div class="instagram__text">
+										<p>
+											raywan.detailing: Зробили перевтілення за допомогою кольорової антигравійноі
+								плівки @brawix_color на #bmw #g30Виконали
+								великий перелік робіт, а саме:✅повне оклеювання кузову плівкою Brawix Color PPF Matte
+								Hosta Gold✅часткове оклеювання
+								прозорою антигравійною плівкою
+										</p>
+									</div>
+								</a>
+							</li>
+							<li class="instagram__item">
+								<a href="#" class="instagram__link">
+									<span class="instagram__img">
+										<img src="./assets/img/instagram/09.jpg" alt="Image">
+									</span>
+									<div class="instagram__text">
+										<p>
+											raywan.detailing: Зробили перевтілення за допомогою кольорової антигравійноі
+								плівки @brawix_color на #bmw #g30Виконали
+								великий перелік робіт, а саме:✅повне оклеювання кузову плівкою Brawix Color PPF Matte
+								Hosta Gold✅часткове оклеювання
+								прозорою антигравійною плівкою
+										</p>
+									</div>
+								</a>
+							</li>
+							<li class="instagram__item">
+								<a href="#" class="instagram__link">
+									<span class="instagram__img">
+										<img src="./assets/img/instagram/10.jpg" alt="Image">
+									</span>
+									<div class="instagram__text">
+										<p>
+											raywan.detailing: Зробили перевтілення за допомогою кольорової антигравійноі
+								плівки @brawix_color на #bmw #g30Виконали
+								великий перелік робіт, а саме:✅повне оклеювання кузову плівкою Brawix Color PPF Matte
+								Hosta Gold✅часткове оклеювання
+								прозорою антигравійною плівкою
+										</p>
+									</div>
+								</a>
+							</li>
+							<li class="instagram__item">
+								<a href="#" class="instagram__link">
+									<span class="instagram__img">
+										<img src="./assets/img/instagram/11.jpg" alt="Image">
+									</span>
+									<div class="instagram__text">
+										<p>
+											raywan.detailing: Зробили перевтілення за допомогою кольорової антигравійноі
+								плівки @brawix_color на #bmw #g30Виконали
+								великий перелік робіт, а саме:✅повне оклеювання кузову плівкою Brawix Color PPF Matte
+								Hosta Gold✅часткове оклеювання
+								прозорою антигравійною плівкою
+										</p>
+									</div>
+								</a>
+							</li>
+							<li class="instagram__item">
+								<a href="#" class="instagram__link">
+									<span class="instagram__img">
+										<img src="./assets/img/instagram/12.jpg" alt="Image">
+									</span>
+									<div class="instagram__text">
+										<p>
+											raywan.detailing: Зробили перевтілення за допомогою кольорової антигравійноі
+								плівки @brawix_color на #bmw #g30Виконали
+								великий перелік робіт, а саме:✅повне оклеювання кузову плівкою Brawix Color PPF Matte
+								Hosta Gold✅часткове оклеювання
+								прозорою антигравійною плівкою
+										</p>
+									</div>
+								</a>
+							</li>
+						</ul>
+						<div class="instagram__bottom">
+							<a class="button" href="#">
+								Підписатись на інстаграм
+								<span class="icon --icon-arrow-next" aria-hidden="true"></span>
+							</a>
+						</div>
+					</div>
+				</section>
+				<!-- section reviews -->
+				<section class="section reviews" id="reviews">
+					<div class="reviews__container">
+						<div class="reviews__row">
+							<div class="reviews__aside">
+								<h2 class="reviews__title title">Відгуки</h2>
+								<a class="button" href="#">
+									Усі відгуки
+									<span class="icon --icon-arrow-next" aria-hidden="true"></span>
+								</a>
+							</div>
+							<div data-fls-slider="" class="reviews__slider swiper">
+								<div class="reviews__wrapper swiper-wrapper">
+									<div class="reviews__slide swiper-slide">
+										<div class="review-item">
+											<div class="review-item__name">Андрій Вишня</div>
+											<div class="review-item__rating">
+												<h3 class="review-item__value">4.6</h3>
+												<div class="stars">
+													<div class="star --icon-star"></div>
+													<div class="star --icon-star"></div>
+													<div class="star --icon-star"></div>
+													<div class="star --icon-star"></div>
+													<div class="star disabled --icon-star"></div>
+												</div>
+											</div>
+											<div data-fls-showmore="" class="review-item__showmore">
+												<div data-fls-showmore-content="" class="review-item__content">
+													Затонували вікна швидко та професійно. Плівка якісна, без бульбашок і перекосів.
+												</div>
+												<button hidden data-fls-showmore-button="" type="button" class="review-item__more --icon-arrow-down">
+													<span>Read
+											more</span>
+													<span>Hide</span>
+												</button>
+											</div>
+											<div class="review-item__date">07/11/2025</div>
+										</div>
+									</div>
+									<div class="reviews__slide swiper-slide">
+										<div class="review-item">
+											<div class="review-item__name">Андрій Вишня</div>
+											<div class="review-item__rating">
+												<h3 class="review-item__value">4.6</h3>
+												<div class="stars">
+													<div class="star --icon-star"></div>
+													<div class="star --icon-star"></div>
+													<div class="star --icon-star"></div>
+													<div class="star --icon-star"></div>
+													<div class="star disabled --icon-star"></div>
+												</div>
+											</div>
+											<div data-fls-showmore="" class="review-item__showmore">
+												<div data-fls-showmore-content="" class="review-item__content">
+													Замовляв оклеювання бронеплівкою на капот і фари. Детально проконсультували
+										по гарантії, допомогли підібрати оптимальну
+										плівку. Робота виконана дуже акуратно: без бульбашок, краї повністю сховані.
+										Тепер не боюся камінців, а авто виглядає
+										доглянуто та прёміально. Повністю задоволений сервісом і результатом.
+												</div>
+												<button hidden data-fls-showmore-button="" type="button" class="review-item__more --icon-arrow-down">
+													<span>Read
+											more</span>
+													<span>Hide</span>
+												</button>
+											</div>
+											<div class="review-item__date">07/11/2025</div>
+										</div>
+									</div>
+									<div class="reviews__slide swiper-slide">
+										<div class="review-item">
+											<div class="review-item__name">Андрій Вишня</div>
+											<div class="review-item__rating">
+												<h3 class="review-item__value">4.6</h3>
+												<div class="stars">
+													<div class="star --icon-star"></div>
+													<div class="star --icon-star"></div>
+													<div class="star --icon-star"></div>
+													<div class="star --icon-star"></div>
+													<div class="star disabled --icon-star"></div>
+												</div>
+											</div>
+											<div data-fls-showmore="" class="review-item__showmore">
+												<div data-fls-showmore-content="" class="review-item__content">
+													Замовляв оклеювання бронеплівкою на капот і фари. Детально проконсультували
+										по гарантії, допомогли підібрати оптимальну
+										плівку. Робота виконана дуже акуратно: без бульбашок, краї повністю сховані.
+										Тепер не боюся камінців, а авто виглядає
+										доглянуто та прёміально. Повністю задоволений сервісом і результатом.
+												</div>
+												<button hidden data-fls-showmore-button="" type="button" class="review-item__more">
+													<span>Read
+											more</span>
+													<span>Hide</span>
+												</button>
+											</div>
+											<div class="review-item__date">07/11/2025</div>
+										</div>
+									</div>
+								</div>
+								<!--
+<div class="swiper-nav">
+<button class="swiper-button-prev --icon-arrow-prev"
+aria-label="btn prev navigation slider"></button>
+<div class="swiper-pagination"></div>
+<button class="swiper-button-next --icon-arrow-next"
+aria-label="btn next navigation slider"></button>
+</div>
+-->
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- section price -->
+				<section class="section price" id="price">
+					<div class="price__container">
+						<h2 class="price__title title">Ціни</h2>
+						<div data-fls-spollers="" class="price__faq">
+							<details class="price__item item-price">
+								<summary class="item-price__title">
+									Оклеювання антигравійною та кольоровою плівкою
+									<span class="item-price__icon --icon-arrow-down" aria-hidden="true"></span>
+								</summary>
+								<div class="item-price__body">
+									<div class="item-price__info">
+										<div class="key">Повне оклеювання кузову авто с заміною кольору</div>
+										<div class="value">
+											від
+											<strong>100 000 ₴</strong>
+										</div>
+									</div>
+									<div class="item-price__info">
+										<div class="key">Антихром повний</div>
+										<div class="value">
+											від
+											<strong>6 000 ₴</strong>
+										</div>
+									</div>
+									<div class="item-price__info">
+										<div class="key">Антихром віконних молдингів</div>
+										<div class="value">
+											від
+											<strong>4 000 ₴</strong>
+										</div>
+									</div>
+								</div>
+							</details>
+							<details class="price__item item-price">
+								<summary class="item-price__title">
+									Полірування, захисні покриття
+									<span class="item-price__icon --icon-arrow-down" aria-hidden="true"></span>
+								</summary>
+								<div class="item-price__body">
+									<div class="item-price__info">
+										<div class="key">Повне оклеювання кузову авто с заміною кольору</div>
+										<div class="value">
+											від
+											<strong>100 000 ₴</strong>
+										</div>
+									</div>
+									<div class="item-price__info">
+										<div class="key">Антихром повний</div>
+										<div class="value">
+											від
+											<strong>6 000 ₴</strong>
+										</div>
+									</div>
+									<div class="item-price__info">
+										<div class="key">Антихром повний</div>
+										<div class="value">
+											від
+											<strong>4 000 ₴</strong>
+										</div>
+									</div>
+								</div>
+							</details>
+						</div>
+					</div>
+				</section>
+				<!-- section contacts -->
+				<section class="section contacts" id="contacts">
+					<div class="contacts__container">
+						<h2 class="contacts__title title">Контакти</h2>
+						<div class="contacts__row">
+							<div class="contacts__content">
+								<div class="contacts__info contacts-block">
+									<ul class="contacts-block__list">
+										<li class="contacts-block__item item-contact">
+											<h3 class="item-contact__title">Адреса</h3>
+											<div class="item-contact__content">
+												<a href="https://maps.app.goo.gl/bzi6kk7n9Fm1a51W9" target="_blank">м. Дніпро, вул.
+										Січових
+										Стрільців 36</a>
+											</div>
+										</li>
+										<li class="contacts-block__item item-contact">
+											<h3 class="item-contact__title">номер телефону</h3>
+											<div class="item-contact__content">
+												<a href="tel:+0666260997">+0666260997</a>
+												<a href="tel:+0666260997">+0666260997</a>
+											</div>
+										</li>
+										<li class="contacts-block__item item-contact">
+											<h3 class="item-contact__title">Ми у соцмережах</h3>
+											<div class="item-contact__content">
+												<a class="social-link" href="#" aria-label="whatsapp" target="_blank">
+													<div class="social-link__icon">
+														<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M12.003 0H11.997C5.3805 0 0 5.382 0 12C0 14.625 0.846 17.058 2.2845 19.0335L0.789 23.4915L5.4015 22.017C7.299 23.274 9.5625 24 12.003 24C18.6195 24 24 18.6165 24 12C24 5.3835 18.6195 0 12.003 0ZM18.9855 16.9455C18.696 17.763 17.547 18.441 16.6305 18.639C16.0035 18.7725 15.1845 18.879 12.4275 17.736C8.901 16.275 6.63 12.6915 6.453 12.459C6.2835 12.2265 5.028 10.5615 5.028 8.8395C5.028 7.1175 5.9025 6.279 6.255 5.919C6.5445 5.6235 7.023 5.4885 7.482 5.4885C7.6305 5.4885 7.764 5.496 7.884 5.502C8.2365 5.517 8.4135 5.538 8.646 6.0945C8.9355 6.792 9.6405 8.514 9.7245 8.691C9.81 8.868 9.8955 9.108 9.7755 9.3405C9.663 9.5805 9.564 9.687 9.387 9.891C9.21 10.095 9.042 10.251 8.865 10.47C8.703 10.6605 8.52 10.8645 8.724 11.217C8.928 11.562 9.633 12.7125 10.671 13.6365C12.0105 14.829 13.0965 15.21 13.485 15.372C13.7745 15.492 14.1195 15.4635 14.331 15.2385C14.5995 14.949 14.931 14.469 15.2685 13.9965C15.5085 13.6575 15.8115 13.6155 16.1295 13.7355C16.4535 13.848 18.168 14.6955 18.5205 14.871C18.873 15.048 19.1055 15.132 19.191 15.2805C19.275 15.429 19.275 16.1265 18.9855 16.9455Z" fill="white"></path>
+														</svg>
+													</div>
+													<span class="social-link__title">Whatsap</span>
+												</a>
+												<a class="social-link" href="#" aria-label="telegram" target="_blank">
+													<div class="social-link__icon">
+														<svg width="21" height="18" viewbox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M0.462691 8.64472L5.29269 10.285L16.7609 3.27397C16.9274 3.17272 17.0977 3.39847 16.9544 3.53047L8.27244 11.5217L7.94994 15.9955C7.94467 16.0704 7.96231 16.1452 8.00052 16.2099C8.03872 16.2746 8.09569 16.3261 8.16386 16.3577C8.23203 16.3892 8.30819 16.3993 8.38223 16.3866C8.45628 16.3739 8.5247 16.339 8.57844 16.2865L11.2514 13.6577L16.1384 17.3567C16.6649 17.7557 17.4277 17.4745 17.5694 16.8295L20.9722 1.37947C21.1664 0.49822 20.3024 -0.24578 19.4602 0.0767195L0.43869 7.36072C-0.15831 7.58947 -0.14181 8.43922 0.462691 8.64472Z" fill="white"></path>
+														</svg>
+													</div>
+													<span class="social-link__title">Telegram</span>
+												</a>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<!--
+<div class="map__img">
+<img src="@img/map.jpg" alt="google map">
+</div>
+-->
+							<div class="contacts__img">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d162759.0614266914!2d30.367544188592827!3d50.40178130681754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNGX0LIsIDAyMDAw!5e0!3m2!1suk!2sua!4v1762726178221!5m2!1suk!2sua" width="100%" height="100%" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- section orders -->
+				<section class="section orders" id="main-form">
+					<div class="orders__container">
+						<div class="orders__grid">
+							<h2 class="orders__title title">ГОТОВІ ЗАМОВИТИ
+					ПОСЛУГИ?</h2>
+							<div class="orders__form">
+								<form action="#">
+									<div class="form-group">
+										<label class="label" for="name">Ім’я</label>
+										<input autocomplete="off" type="text" id="name" name="name" placeholder="Артeм Шульга*" class="input" required>
+									</div>
+									<div class="form-group">
+										<label class="label" for="phone">Номер телефону</label>
+										<input autocomplete="off" type="text" id="phone" name="phone" placeholder="+0676650996*" class="input" required>
+									</div>
+									<div class="form-group">
+										<label class="label" for="service-form">Вибір послуги</label>
+										<select name="Service" id="service-form" data-fls-select="" data-fls-select-modif="form">
+											<option value="1" selected>Service №1</option>
+											<option value="2">Service №2</option>
+											<option value="3">Service №3</option>
+											<option value="4">Service №4</option>
+										</select>
+									</div>
+									<button class="button" type="submit">Надіслати заявку</button>
+								</form>
+							</div>
+							<div class="orders__description">
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<div class="footer__logo">
+						<img src="./assets/img/logo-footer.svg" alt="logo">
+					</div>
+					<div class="footer__content">
+						<div class="footer__col">
+							<h2 class="footer__title">Сторінки</h2>
+							<nav class="footer__nav">
+								<ul>
+									<li>
+										<a href="#services">Послуги</a>
+									</li>
+									<li>
+										<a href="#instagram">Наш інстаграм</a>
+									</li>
+									<li>
+										<a href="#reviews">Відгуки</a>
+									</li>
+									<li>
+										<a href="#price">Ціни</a>
+									</li>
+									<li>
+										<a href="#contacts">Контакти</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<div class="footer__col">
+							<div class="footer__contacts contacts-block">
+								<ul class="contacts-block__list">
+									<li class="contacts-block__item item-contact">
+										<h3 class="item-contact__title">номер телефону</h3>
+										<div class="item-contact__content">
+											<a href="tel:+0666260997">+0666260997</a>
+											<a href="tel:+0666260997">+0666260997</a>
+										</div>
+									</li>
+									<li class="contacts-block__item item-contact">
+										<h3 class="item-contact__title">Адреса</h3>
+										<div class="item-contact__content">
+											<a href="https://maps.app.goo.gl/bzi6kk7n9Fm1a51W9" target="_blank">м. Дніпро, вул.
+									Січових
+									Стрільців 36</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="footer__social social">
+						<h3 class="social__title">Ми у соцмережах</h3>
+						<ul class="social__list">
+							<li class="social__item">
+								<a class="social-link" href="#" aria-label="whatsapp" target="_blank">
+									<div class="social-link__icon">
+										<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M12.003 0H11.997C5.3805 0 0 5.382 0 12C0 14.625 0.846 17.058 2.2845 19.0335L0.789 23.4915L5.4015 22.017C7.299 23.274 9.5625 24 12.003 24C18.6195 24 24 18.6165 24 12C24 5.3835 18.6195 0 12.003 0ZM18.9855 16.9455C18.696 17.763 17.547 18.441 16.6305 18.639C16.0035 18.7725 15.1845 18.879 12.4275 17.736C8.901 16.275 6.63 12.6915 6.453 12.459C6.2835 12.2265 5.028 10.5615 5.028 8.8395C5.028 7.1175 5.9025 6.279 6.255 5.919C6.5445 5.6235 7.023 5.4885 7.482 5.4885C7.6305 5.4885 7.764 5.496 7.884 5.502C8.2365 5.517 8.4135 5.538 8.646 6.0945C8.9355 6.792 9.6405 8.514 9.7245 8.691C9.81 8.868 9.8955 9.108 9.7755 9.3405C9.663 9.5805 9.564 9.687 9.387 9.891C9.21 10.095 9.042 10.251 8.865 10.47C8.703 10.6605 8.52 10.8645 8.724 11.217C8.928 11.562 9.633 12.7125 10.671 13.6365C12.0105 14.829 13.0965 15.21 13.485 15.372C13.7745 15.492 14.1195 15.4635 14.331 15.2385C14.5995 14.949 14.931 14.469 15.2685 13.9965C15.5085 13.6575 15.8115 13.6155 16.1295 13.7355C16.4535 13.848 18.168 14.6955 18.5205 14.871C18.873 15.048 19.1055 15.132 19.191 15.2805C19.275 15.429 19.275 16.1265 18.9855 16.9455Z" fill="white"></path>
+										</svg>
+									</div>
+									<span class="social-link__title">Whatsap</span>
+								</a>
+							</li>
+							<li class="social__item">
+								<a class="social-link" href="#" aria-label="telegram" target="_blank">
+									<div class="social-link__icon">
+										<svg width="21" height="18" viewbox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M0.462691 8.64472L5.29269 10.285L16.7609 3.27397C16.9274 3.17272 17.0977 3.39847 16.9544 3.53047L8.27244 11.5217L7.94994 15.9955C7.94467 16.0704 7.96231 16.1452 8.00052 16.2099C8.03872 16.2746 8.09569 16.3261 8.16386 16.3577C8.23203 16.3892 8.30819 16.3993 8.38223 16.3866C8.45628 16.3739 8.5247 16.339 8.57844 16.2865L11.2514 13.6577L16.1384 17.3567C16.6649 17.7557 17.4277 17.4745 17.5694 16.8295L20.9722 1.37947C21.1664 0.49822 20.3024 -0.24578 19.4602 0.0767195L0.43869 7.36072C-0.15831 7.58947 -0.14181 8.43922 0.462691 8.64472Z" fill="white"></path>
+										</svg>
+									</div>
+									<span class="social-link__title">Telegram</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<div data-fls-popup="contact-us" aria-hidden="true" class="popup">
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" class="popup__body">
+					<button data-fls-popup-close="" type="button" class="popup__close --icon-close"></button>
+					<div data-fls-popup-content="" class="popup__text">
+						<h2 class="popup__title title">Замовлення послуги</h2>
+						<form action="#">
+							<div class="form-grid">
+								<div class="form-group">
+									<label class="label" for="car-popup">Марка авто</label>
+									<input autocomplete="off" type="text" id="car-popup" name="car" placeholder="Mitsubishi" class="input" required>
+								</div>
+								<div class="form-group">
+									<label class="label" for="car-model-popup">Модель авто</label>
+									<input autocomplete="off" type="text" id="car-model-popup" name="car-model" placeholder="Mitsubishi Outlander*" class="input" required>
+								</div>
+								<div class="form-group">
+									<label class="label" for="car-year-popup">Модель авто</label>
+									<input autocomplete="off" type="text" id="car-year-popup" name="car-year" maxlength="4" placeholder="2021*" class="input" required>
+								</div>
+								<div class="form-group">
+									<label class="label" for="service-form-popup">Вибір послуги</label>
+									<select name="Service" id="service-form-popup" data-fls-select="" data-fls-select-modif="form">
+										<option value="1" selected>Service №1</option>
+										<option value="2">Service №2</option>
+										<option value="3">Service №3</option>
+										<option value="4">Service №4</option>
+									</select>
+								</div>
+								<div class="form-group">
+									<label class="label" for="name-popup">Ім’я</label>
+									<input autocomplete="off" type="text" id="name-popup" name="name" placeholder="|Артeм Шульга*" class="input" required>
+								</div>
+								<div class="form-group">
+									<label class="label" for="phone-popup">Номер телефону</label>
+									<input autocomplete="off" type="text" id="phone-popup" name="phone" placeholder="+0676650996*" class="input" required>
+								</div>
+							</div>
+							<button class="button" type="submit">
+								Надіслати
+								<span class="icon --icon-arrow-next" aria-hidden="true"></span>
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-fls-popup="form-success" aria-hidden="true" class="popup">
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" class="popup__body">
+					<div data-fls-popup-content="" class="popup__content">
+						<h3 class="popup__title">
+							<span class="title-highlight">Форму</span>
+							успішно відправлено!
+						</h3>
+						<button class="popup__btn btn button" type="button" data-fls-popup-close="">Закрити</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
